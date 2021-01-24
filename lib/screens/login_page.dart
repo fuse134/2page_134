@@ -142,7 +142,7 @@ class _loginState extends State<loginpage> {
                     color: Colors.grey,
                     child: Text('Guest'),
                     onPressed: () {
-                      Navigator.push(
+                      Navigator.Replacementpush(
                           context,
                           MaterialPageRoute(
                             builder: (context) => Mainpage(),
